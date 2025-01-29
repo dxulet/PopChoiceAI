@@ -1,5 +1,6 @@
 import Foundation
 
+@MainActor
 @Observable
 class MovieRecommendationViewModel {
     private let aiService = AIService()
